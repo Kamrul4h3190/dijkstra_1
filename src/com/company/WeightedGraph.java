@@ -30,11 +30,11 @@ public class WeightedGraph {
             }
         }
 
-        for (WeightedNode nodeToCheck : nodeList) {
+        /*for (WeightedNode nodeToCheck : nodeList) {
             System.out.print("Node " + nodeToCheck + ", distance " + nodeToCheck.distance + ", Path: ");
             pathPrint(nodeToCheck);
             System.out.println();
-        }
+        }*/
     }
 
     public static void pathPrint(WeightedNode node){

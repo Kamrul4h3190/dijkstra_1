@@ -27,5 +27,9 @@ public class Main {
         System.out.println("dijkstra from source node 'a'(i = 0)");
         weightedGraph.dijkstra(nodeList.get(0));
 
+        System.out.println("shortest distance : "+nodeList.get(6).distance);
+        System.out.print("Shortest path : ");
+        weightedGraph.pathPrint(nodeList.get(6));
+
     }
 }
