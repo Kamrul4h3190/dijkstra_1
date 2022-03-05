@@ -1,2 +1,6 @@
 .idea/
 *.iml
+*.png
+WeightedGraph_u.java
+WeightedNode_u.java
+out/
